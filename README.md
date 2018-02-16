@@ -1,0 +1,5 @@
+Locale
+======
+
+Basic locale setter
+

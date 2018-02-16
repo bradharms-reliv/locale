@@ -1,0 +1,36 @@
+{
+  "name": "reliv/locale",
+  "description": "Basic locale setter",
+  "type": "library",
+  "license": "ISC",
+  "keywords": [
+    "reliv",
+    "locale",
+    "intl",
+    "setter"
+  ],
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/reliv/locale",
+  "authors": [
+    {
+      "name": "James Jervis",
+      "email": "jjervis@relivinc.com",
+      "homepage": "https://github.com/jerv13"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "psr/container": "^1",
+    "reliv/zf-config-factories": "^4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.*"
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Reliv\\Locale\\": "/src"
+    }
+  }
+}
